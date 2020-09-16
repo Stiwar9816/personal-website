@@ -1,0 +1,16 @@
+// se importan los componentes
+
+// Estilos config assets
+@import "config/vars.css";
+
+// Estilos base assets
+@import "base/reset.scss";
+@import "base/typography.scss";
+
+// Estilos utils assets
+@import "utils/layout.scss";
+@import "utils/titles.scss";
+
+html {
+  scroll-behavior: smooth;
+}
