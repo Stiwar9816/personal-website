@@ -1,5 +1,6 @@
 {
-  "name": "stiwarasprilla",
+  "name": "stiwar_asprilla",
+  "author": "Stiwar Asprilla - Frontend Dev <stiwar.asprilla1998@gmail.com>",
   "version": "0.1.0",
   "private": true,
   "scripts": {
