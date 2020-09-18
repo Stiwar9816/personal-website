@@ -4,8 +4,4 @@
   font-size: var(--fp-h3-subtitle);
   line-height: calc(var(--line-height) * var(--fp-h3-subtitle));
   color: var(--c-sec-main);
-  text-align: center;
-  @media only screen and (min-width: 1024px) {
-    text-align: left;
-  }
 }
