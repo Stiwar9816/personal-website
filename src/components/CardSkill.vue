@@ -8,8 +8,13 @@
     <v-card-title class="cardSkill__title text-center justify-center">
       {{ titleSkill }}</v-card-title
     >
-    <v-list class="cardSkill text-center mt-n3" aria-label="listskills" flat>
-      <v-list-item-group>
+    <v-list
+      class="cardSkill text-center mt-n3"
+      role="tablist"
+      aria-label="listskills"
+      flat
+    >
+      <v-list-item-group role="list">
         <v-list-item-content v-for="(item, index) in dataSkill" :key="index">
           <v-list-item-title v-text="item" aria-label="itemlist" />
         </v-list-item-content>
