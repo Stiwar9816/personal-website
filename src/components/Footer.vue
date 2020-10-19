@@ -5,7 +5,7 @@
         <v-card-title class="footer justify-center">
           <v-row no-gutters class="networks">
             <v-btn
-              v-for="icon in icons"
+              v-for="icon in iconsFooter"
               :key="icon"
               class="mx-2"
               icon
@@ -16,7 +16,10 @@
             </v-btn>
           </v-row>
           <v-spacer></v-spacer>
-          <strong class="copyright">Copyright © {{ new Date().getFullYear() }} All rights reserved.</strong>
+          <strong class="copyright"
+            >Copyright © {{ new Date().getFullYear() }} All rights
+            reserved.</strong
+          >
         </v-card-title>
       </v-container>
     </v-card>
@@ -26,22 +29,11 @@
 <script>
 export default {
   name: "Footer",
-  data: () => ({
-    icons: [
-      {
-        name: "mdi-github",
-        url: "https://github.com/Stiwar9816",
-      },
-      {
-        name: "mdi-linkedin",
-        url: "https://www.linkedin.com/in/stiwar-asprilla",
-      },
-      {
-        name: "mdi-twitter",
-        url: "https://twitter.com/AsprillaStiwar",
-      },
-    ],
-  }),
+  computed: {
+    iconsFooter() {
+      return this.$store.state.iconsFooter;
+    },
+  },
 };
 </script>
 

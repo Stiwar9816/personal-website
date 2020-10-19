@@ -1,12 +1,15 @@
 <template>
   <v-card flat tile class="card-banner">
-    <v-img class="img-banner align-center" :src="require('../assets/images/bg.jpg')">
+    <v-img
+      class="img-banner align-center"
+      :src="require('../assets/images/bg.webp')"
+    >
       <v-row align="center" justify="center">
         <v-col class="text-center" cols="12">
           <v-img
             class="img-avatar"
             max-height="250"
-            :src="require('../assets/images/avatar.png')"
+            :src="require('../assets/images/avatar.webp')"
             contain
           />
           <p class="text-subtitle mt-12">Hello my name is</p>

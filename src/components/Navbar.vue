@@ -44,29 +44,12 @@ export default {
   name: "Navbar",
   data: () => ({
     drawer: false,
-    routes: [
-      {
-        title: "about",
-        to: "#about",
-      },
-      {
-        title: "education",
-        to: "#education",
-      },
-      {
-        title: "work",
-        to: "#work",
-      },
-      {
-        title: "skills",
-        to: "#skills",
-      },
-      {
-        title: "portfolio",
-        to: "#portfolio",
-      },
-    ],
   }),
+  computed: {
+    routes() {
+      return this.$store.state.routes;
+    },
+  },
 };
 </script>
 
