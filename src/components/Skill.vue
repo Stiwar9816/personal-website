@@ -1,7 +1,7 @@
 <template>
   <section id="skill">
     <h1 class="section-title text-uppercase text-center my-16 my-lg-16">
-      skill
+      skills
     </h1>
     <v-container>
       <v-row class="justify-center align-center" no-gutters>

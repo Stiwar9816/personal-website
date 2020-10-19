@@ -1,16 +1,20 @@
 <template>
   <div class="navbar">
     <v-toolbar class="navbar l-container" height="80" dark flat app>
-      <v-app-bar-nav-icon class="icon-menu" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon
+        class="icon-menu"
+        @click.stop="drawer = !drawer"
+      ></v-app-bar-nav-icon>
       <v-row class="menu justify-center align-center" no-gutters>
         <a
           class="nav-title mx-6 text-uppercase"
-          v-for="(route,i) in routes"
+          v-for="(route, i) in routes"
           :key="i"
           :href="route.to"
           router
           exact
-        >{{route.title}}</a>
+          >{{ route.title }}</a
+        >
       </v-row>
     </v-toolbar>
     <v-navigation-drawer class="sidebar" dark app v-model="drawer" temporary>
@@ -24,7 +28,10 @@
           aria-label="main menu"
         >
           <v-list-item-content>
-            <v-list-item-title class="nav-title text-uppercase" v-text="route.title" />
+            <v-list-item-title
+              class="nav-title text-uppercase"
+              v-text="route.title"
+            />
           </v-list-item-content>
         </v-list-item>
       </v-list>
