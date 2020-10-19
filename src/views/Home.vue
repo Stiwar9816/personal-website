@@ -4,6 +4,8 @@
     <About />
     <Education />
     <Experience />
+    <Skill />
+    <Portfolio />
   </div>
 </template>
 
@@ -13,6 +15,8 @@ import Banner from "@/components/Banner.vue";
 import About from "@/components/About.vue";
 import Education from "@/components/Education.vue";
 import Experience from "@/components/Experience.vue";
+import Skill from "@/components/Skill.vue";
+import Portfolio from "@/components/Portfolio.vue";
 export default {
   name: "Home",
   components: {
@@ -20,6 +24,8 @@ export default {
     About,
     Education,
     Experience,
+    Skill,
+    Portfolio,
   },
 };
 </script>

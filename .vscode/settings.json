@@ -1,3 +1,7 @@
 {
-    "vue3snippets.enable-compile-vue-file-on-did-save-code": false
+    "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+    "python.linting.pylintArgs": [
+        "--init-hook",
+        "import sys; sys.path.extend([\"\"/home/stiwar/.vscode/extensions/ms-python.devicesimulatorexpress-2020.0.36321/out\"\",\"\"/home/stiwar/.vscode/extensions/ms-python.devicesimulatorexpress-2020.0.36321/out/micropython\"\",\"\"/home/stiwar/.vscode/extensions/ms-python.devicesimulatorexpress-2020.0.36321/out/clue\"\",\"\"/home/stiwar/.vscode/extensions/ms-python.devicesimulatorexpress-2020.0.36321/out/base_circuitpython\"\"])"
+    ]
 }
