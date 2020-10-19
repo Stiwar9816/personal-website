@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <v-toolbar class="navbar l-container" height="80" dark flat app>
+    <v-toolbar class="navbar l-container" height="80" dark flat>
       <v-app-bar-nav-icon
         class="icon-menu"
         @click.stop="drawer = !drawer"

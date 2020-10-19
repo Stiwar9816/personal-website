@@ -5,8 +5,8 @@
         <v-card-title class="footer justify-center">
           <v-row no-gutters class="networks">
             <v-btn
-              v-for="icon in iconsFooter"
-              :key="icon"
+              v-for="(icon, i) in iconsFooter"
+              :key="i"
               class="mx-2"
               icon
               :href="icon.url"
