@@ -4,7 +4,7 @@
       <v-app-bar-nav-icon
         class="icon-menu"
         @click.stop="drawer = !drawer"
-        role="button"
+        aria-label="nav-icon"
       ></v-app-bar-nav-icon>
       <v-row class="menu justify-center align-center" no-gutters>
         <a

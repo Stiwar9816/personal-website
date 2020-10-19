@@ -11,7 +11,7 @@
               icon
               :href="icon.url"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               aria-label="icons-networks"
             >
               <v-icon class="icons" size="26px">{{ icon.name }}</v-icon>
