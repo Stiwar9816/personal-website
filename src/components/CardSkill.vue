@@ -10,13 +10,13 @@
     >
     <v-list
       class="cardSkill text-center mt-n3"
-      role="tablist"
-      aria-label="listskills"
+      role="list"
+      aria-label="listItems"
       flat
     >
-      <v-list-item-group role="list">
+      <v-list-item-group role="listitem">
         <v-list-item-content v-for="(item, index) in dataSkill" :key="index">
-          <v-list-item-title v-text="item" aria-label="itemlist" />
+          <v-list-item-title v-text="item" />
         </v-list-item-content>
       </v-list-item-group>
     </v-list>
