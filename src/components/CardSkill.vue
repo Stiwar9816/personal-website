@@ -16,11 +16,11 @@ export default {
   name: "CardSkill",
   props: {
     icon: {
-      type: Array,
+      type: Object,
       default: "mdi-language-html5",
     },
     titleSkill: {
-      type: Array,
+      type: Object,
       default: "HTML",
     },
   },
