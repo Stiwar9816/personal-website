@@ -39,7 +39,8 @@
             class="btn-about text-uppercase py-5 px-5 mt-16"
             depressed
             large
-            to="https://drive.google.com/file/d/1vcPLM23QlROM843unjhHWl_hEgE49LBj/view?usp=sharing"
+            href="https://drive.google.com/file/d/1vcPLM23QlROM843unjhHWl_hEgE49LBj/view?usp=sharing"
+            target="__blank"
           >
             download cv
             <v-icon right>mdi-cloud-download</v-icon>

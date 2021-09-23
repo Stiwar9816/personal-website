@@ -8,18 +8,6 @@
     <v-card-title class="cardSkill__title text-center justify-center">
       {{ titleSkill }}</v-card-title
     >
-    <v-list
-      class="cardSkill text-center mt-n3"
-      role="list"
-      aria-label="listItems"
-      flat
-    >
-      <v-list-item-group role="listitem">
-        <v-list-item-content v-for="(item, index) in dataSkill" :key="index">
-          <v-list-item-title v-text="item" />
-        </v-list-item-content>
-      </v-list-item-group>
-    </v-list>
   </v-card>
 </template>
 
@@ -28,16 +16,12 @@ export default {
   name: "CardSkill",
   props: {
     icon: {
-      type: String,
-      default: "mdi-phone",
+      type: Array,
+      default: "mdi-language-html5",
     },
     titleSkill: {
-      type: String,
-      default: "HTML",
-    },
-    dataSkill: {
       type: Array,
-      default: null,
+      default: "HTML",
     },
   },
 };

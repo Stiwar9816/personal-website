@@ -32,7 +32,7 @@
       small
     >
       <v-card class="CardTimeline text-center justify-center" flat>
-        <v-card-title class="CardTimeline__title text-center justify-center">{{cardTitleRight}}</v-card-title>
+        <v-card-title class="CardTimeline__title text-center justify-center">{{CardTitleRight}}</v-card-title>
         <v-card-text class="CardTimeline__text">
           <p>{{descriptionRight}}</p>
         </v-card-text>

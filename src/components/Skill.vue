@@ -20,6 +20,27 @@ export default {
   components: {
     CardSkill,
   },
+  data() {
+    return {
+      icon: [
+        "mdi-mdi-language-html5",
+        "mdi-vuejs",
+        "mdi-language-css3",
+        "mdi-language-javascript",
+        "mdi-react",
+        "mdi-wordpress",
+        "mdi-gatsby",
+      ],
+      titleSkill: [
+        "HTML5",
+        "VueJS",
+        "CSS3",
+        "JavaScript",
+        "ReactJS",
+        "WordPress",
+        "GatsbyJS",
+      ],
+    };
+  },
 };
 </script>
-
