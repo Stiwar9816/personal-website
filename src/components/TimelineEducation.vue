@@ -23,6 +23,21 @@
         </v-card-text>
       </v-card>
     </v-timeline-item>
+        <v-timeline-item
+      right
+      v-for="(color, i) in colors"
+      :key="i"
+      :color="color.color"
+      fill-dot
+      small
+    >
+      <v-card class="CardTimeline text-center justify-center" flat>
+        <v-card-title class="CardTimeline__title text-center justify-center">{{cardTitleRight}}</v-card-title>
+        <v-card-text class="CardTimeline__text">
+          <p>{{descriptionRight}}</p>
+        </v-card-text>
+      </v-card>
+    </v-timeline-item>
   </v-timeline>
 </template>
 
@@ -31,20 +46,28 @@ export default {
   props: {
     cardTitle: {
       type: String,
-      default: "Lorem Ipsum Dolor",
+      default: "Institución Educativa Carrasquilla Industrial",
     },
     description: {
       type: String,
-      default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      default: "Bachiller técnico con profundización en metalmecánica.",
     },
     cardTitleLeft: {
       type: String,
-      default: "Lorem Ipsum Dolor Left",
+      default: "Fundación Universitaria Claretiana",
     },
     descriptionLeft: {
       type: String,
-      default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      default: "Ingeniero de sistemas.",
     },
+    CardTitleRight:{
+      type:String,
+      default: "Servicio Nacional de Aprendizaje - SENA"
+    },
+    descriptionRight:{
+      type:String,
+      default:"Identificación, Funcionamiento y Diseño de Circuitos Electrónicos Digitales Básicos."
+    }
   },
   data: () => ({
     name: "Timeline",

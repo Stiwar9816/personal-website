@@ -11,9 +11,10 @@
         <v-col cols="12" class="col-lg-6 col-xl-6">
           <h1 class="section-title text-uppercase mt-16 mt-lg-5">about</h1>
           <p class="text-about mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem
-            viverra aliquet eget sit amet tellus cras adipiscing.
+            Me considero una persona apasionada por hacer las cosas bien y lo
+            más cercano a la perfección siempre en busca de seguir mejorando,
+            aprendiendo nuevas cosas acerca de tecnología. Lenguaje de
+            desarrollo principal VueJs
           </p>
           <v-list flat>
             <v-list-item v-for="(item, i) in aboutItems" :key="i">
@@ -38,6 +39,7 @@
             class="btn-about text-uppercase py-5 px-5 mt-16"
             depressed
             large
+            to="https://drive.google.com/file/d/1vcPLM23QlROM843unjhHWl_hEgE49LBj/view?usp=sharing"
           >
             download cv
             <v-icon right>mdi-cloud-download</v-icon>

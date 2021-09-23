@@ -33,7 +33,7 @@ export default {
     },
     titleSkill: {
       type: String,
-      default: "Lorem Ipsum",
+      default: "HTML",
     },
     dataSkill: {
       type: Array,

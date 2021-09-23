@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Timeline from "@/components/Timeline.vue";
+import Timeline from "@/components/TimelineExperience.vue";
 export default {
   name: "Experience",
   components: {
