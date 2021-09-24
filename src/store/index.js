@@ -18,10 +18,6 @@ export default new Vuex.Store({
         text: "stiwar.asprilla1998@gmail.com",
         icon: "mdi-email",
       },
-      {
-        text: "3183919028",
-        icon: "mdi-phone",
-      },
     ],
     iconsFooter: [
       {
@@ -34,28 +30,32 @@ export default new Vuex.Store({
       },
       {
         name: "mdi-twitter",
-        url: "https://twitter.com/AsprillaStiwar",
+        url: "https://twitter.com/stiwar_asprilla",
+      },
+      {
+        name: "mdi-instagram",
+        url: "https://www.instagram.com/stiwar_asprilla/",
       },
     ],
     routes: [
       {
-        title: "about",
+        title: "Sobre Mí",
         to: "#about",
       },
       {
-        title: "education",
+        title: "Educación",
         to: "#education",
       },
       {
-        title: "work",
+        title: "Experencia",
         to: "#work",
       },
       {
-        title: "skills",
+        title: "Habilidades",
         to: "#skills",
       },
       {
-        title: "portfolio",
+        title: "Portafolio",
         to: "#portfolio",
       },
     ],

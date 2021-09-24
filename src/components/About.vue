@@ -9,7 +9,7 @@
           />
         </v-col>
         <v-col cols="12" class="col-lg-6 col-xl-6">
-          <h1 class="section-title text-uppercase mt-16 mt-lg-5">about</h1>
+          <h1 class="section-title text-uppercase mt-16 mt-lg-5">Sobre Mí</h1>
           <p class="text-about mt-4">
             Me considero una persona apasionada por hacer las cosas bien y lo
             más cercano a la perfección siempre en busca de seguir mejorando,
@@ -42,7 +42,7 @@
             href="https://drive.google.com/file/d/1vcPLM23QlROM843unjhHWl_hEgE49LBj/view?usp=sharing"
             target="__blank"
           >
-            download cv
+            Descargar CV
             <v-icon right>mdi-cloud-download</v-icon>
           </v-btn>
         </v-row>

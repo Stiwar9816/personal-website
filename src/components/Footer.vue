@@ -1,6 +1,6 @@
 <template>
-  <v-footer class="footer" dark padless height="80">
-    <v-card class="footer flex mt-2" flat tile>
+  <v-footer class="footer" dark padless >
+    <v-card class="footer flex" flat tile>
       <v-container>
         <v-card-title class="footer justify-center">
           <v-row no-gutters class="networks">
@@ -14,13 +14,12 @@
               rel="noopener"
               aria-label="icons-networks"
             >
-              <v-icon class="icons" size="26px">{{ icon.name }}</v-icon>
+              <v-icon class="icons" size="24px">{{ icon.name }}</v-icon>
             </v-btn>
           </v-row>
           <v-spacer></v-spacer>
           <strong class="copyright"
-            >Copyright © {{ new Date().getFullYear() }} All rights
-            reserved.</strong
+            >© Stiwar Asprilla {{ new Date().getFullYear() }}</strong
           >
         </v-card-title>
       </v-container>
@@ -47,8 +46,11 @@ export default {
 .copyright {
   font-family: var(--f-secondary);
   font-size: var(--fs-small);
-  font-weight: var(--regular);
+  font-weight: var(--normal);
   color: var(--c-acc-ligther);
+   &:hover {
+    color: var(--c-fou-lighter) !important;
+  }
 }
 
 .networks {
@@ -65,10 +67,10 @@ export default {
 }
 
 .icons {
-  color: var(--c-fou-lighter) !important;
-
+  color: var(--c-fou-darker) !important;
+  
   &:hover {
-    color: var(--c-fou-darker) !important;
+    color: var(--c-fou-lighter) !important;
   }
 }
 </style>

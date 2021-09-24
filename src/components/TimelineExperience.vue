@@ -9,21 +9,21 @@
       small
     >
       <v-card class="CardTimeline text-center justify-center" flat>
-        <v-card-title class="CardTimeline__title text-center justify-center">{{cardTitle}}</v-card-title>
+        <v-card-title class="CardTimeline__title text-center justify-center">{{TitleOne}}</v-card-title>
         <v-card-text class="CardTimeline__text">
-          <p>{{description}}</p>
+          <p>{{descriptionOne}}</p>
         </v-card-text>
       </v-card>
     </v-timeline-item>
     <v-timeline-item left v-for="(color, i) in colors" :key="i" :color="color.color" fill-dot small>
       <v-card class="CardTimeline text-center justify-center" flat>
-        <v-card-title class="CardTimeline__title text-center justify-center">{{cardTitleLeft}}</v-card-title>
+        <v-card-title class="CardTimeline__title text-center justify-center">{{TitleTwo}}</v-card-title>
         <v-card-text class="CardTimeline__text">
-          <p>{{descriptionLeft}}</p>
+          <p>{{descriptionTwo}}</p>
         </v-card-text>
       </v-card>
     </v-timeline-item>
-       <v-timeline-item
+    <v-timeline-item
       right
       v-for="(color, i) in colors"
       :key="i"
@@ -32,9 +32,24 @@
       small
     >
       <v-card class="CardTimeline text-center justify-center" flat>
-        <v-card-title class="CardTimeline__title text-center justify-center">{{CardTitleRigth}}</v-card-title>
+        <v-card-title class="CardTimeline__title text-center justify-center">{{TitleThrid}}</v-card-title>
         <v-card-text class="CardTimeline__text">
-          <p>{{descriptionRight}}</p>
+          <p>{{descriptionThrid}}</p>
+        </v-card-text>
+      </v-card>
+    </v-timeline-item>
+    <v-timeline-item
+      left
+      v-for="(color, i) in colors"
+      :key="i"
+      :color="color.color"
+      fill-dot
+      small
+    >
+      <v-card left class="CardTimeline text-center justify-center" flat>
+        <v-card-title class="CardTimeline__title text-center justify-center">{{TitleFour}}</v-card-title>
+        <v-card-text class="CardTimeline__text">
+          <p>{{descriptionFour}}</p>
         </v-card-text>
       </v-card>
     </v-timeline-item>
@@ -44,30 +59,38 @@
 <script>
 export default {
   props: {
-    cardTitle: {
+    TitleOne: {
       type: String,
-      default: "CodeOn LLC – Frontend Developer",
+      default: "CodeOn LLC",
     },
-    description: {
+    descriptionOne: {
       type: String,
       default: "Desarrollar interfaces basadas en diseños ya propuestos aplicando métricas exactas de UX/UI.",
     },
-    cardTitleLeft: {
+    TitleTwo: {
       type: String,
-      default: "JSConf Colombia – Frontend Developer",
+      default: "JSConf Colombia",
     },
-    descriptionLeft: {
+    descriptionTwo: {
       type: String,
       default: "Desarrollo del sitio web oficial para la conferencia tech más grande de Colombia.",
     },
-    CardTitleRigth:{
+    TitleThrid:{
       type:String,
-      default: "NodeConf Colombia - Frontend Developer"
+      default: "NodeConf Colombia"
     },
-      descriptionRight: {
+      descriptionThrid: {
       type: String,
       default: "Desarrollo del sitio web de la conferencia en su primera versión.",
     },
+    TitleFour:{
+      type:String,
+      default:"Sischocó S.A.S"
+    },
+    descriptionFour:{
+      type:String,
+      default:"Dar soporte y mejoras a los sistemas creados con el fin de mejorar el rendimiento"
+    }
   },
   data: () => ({
     name: "Timeline",

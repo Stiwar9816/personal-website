@@ -45,6 +45,9 @@ export default {
     font-size: var(--fp-h1-title);
     line-height: calc(var(--line-height) * var(--fp-h1-title));
   }
+  &:hover{
+    color: var(--c-fou-darker);
+  }
 }
 .text-subtitle {
   font-family: var(--f-secondary);

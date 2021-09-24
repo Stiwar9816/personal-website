@@ -2,7 +2,7 @@
   <section class="section-experience" id="work">
     <v-container>
       <h1 class="section-title text-uppercase text-center my-16 my-lg-16">
-        work experience
+        Experiencia
       </h1>
       <Timeline id="experience" />
     </v-container>
