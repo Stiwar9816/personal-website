@@ -6,7 +6,7 @@ personal website where you can see a little about who I am and what I do.
 
 ## Project setup
 ```
-yarn install
+yarn install 
 ```
 
 ### Compiles and hot-reloads for development
