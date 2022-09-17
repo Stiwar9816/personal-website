@@ -22,4 +22,4 @@ yarn build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-#Prueba git merge test fallido rama dev
+#Prueba git merge test correcto rama master
